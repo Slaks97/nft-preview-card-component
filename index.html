@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <main class="container">
+      <div class="card">
+        <section class="image-container">
+          <img class="equilibrium-img" src="images/image-equilibrium.jpg" alt="a colourful equilibrium">
+          <div class="overlay">
+            <img class="eye-icon" src="images/icon-view.svg" alt="a white eye icon">
+          </div>
+        </section>
+
+        <section class="text">
+          <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </section>
+
+        <section class="info">
+          <div class="value">
+            <img src="images/icon-ethereum.svg" alt="ethereum icon">
+            <p>0.041 ETH</p>
+          </div>
+          <div class="countdown">
+            <img src="images/icon-clock.svg" alt="clock icon">
+            <p>3 days left</p>
+          </div>
+        </section>
+
+        <section class="profile">
+          <picture>
+            <source media="(max-width: 518px)" srcset="images/image-avatar.png">
+            <source media="(min-width: 517px)" srcset="images/image-avatar.png">
+            <img class="avatar" src="images/image-avatar.png" alt="picture of the author">
+          </picture>
+          <p>Creation of <span>Jules Wyvern</span></p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
